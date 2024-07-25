@@ -6,6 +6,10 @@ from sqlalchemy import or_
 
 bp = Blueprint('main', __name__)
 
+@bp.route('/', methods=['GET'])
+def home():
+    return jsonify({'message': 'Welcome to the Wellness Retreat API'}), 200
+
 @bp.route('/retreats', methods=['GET'])
 def get_retreats():
     page = request.args.get('page', 1, type=int)
