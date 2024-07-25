@@ -12,8 +12,8 @@ This is a Flask-based backend service for managing retreat data for a wellness r
 ## Setup
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/wellness-retreat-backend.git
-   cd wellness-retreat-backend
+   git clone https://github.com/Sanchit24s/python_backend_assignment.git
+   cd python_backend_assignment
 
 2. Create a virtual environment and activate it:
    python -m venv venv
