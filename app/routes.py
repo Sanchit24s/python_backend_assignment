@@ -181,5 +181,5 @@ def get_bookings():
                 'booking_date': booking.booking_date.isoformat()
             } for booking in bookings
         ],
-        'pagination': pagination
+        # 'pagination': pagination
     }), 200
